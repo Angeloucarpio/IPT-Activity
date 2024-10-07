@@ -3,6 +3,10 @@ body {
   background-color: #0ceeaa;
   margin: 0;
   padding: 20px;
+  background-image: url(contact.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 h2 {
@@ -21,7 +25,7 @@ h2 {
 }
 
 #contact-form {
-  max-width: 500px; /* Increased for better responsiveness */
+  max-width: 500px;
   margin: auto;
   background: white;
   padding: 30px;
@@ -34,8 +38,7 @@ h2 {
 label {
   display: block;
   margin-bottom: 8px;
-  font-weight: normal; /* Adjusted for consistency */
-  color: #000000;
+  font-weight: normal;
 }
 
 input[type="text"],
@@ -52,7 +55,7 @@ textarea {
 
 button {
   background-color: #5cb85c;
-  color: white; /* Changed for better contrast */
+  color: white;
   padding: 12px 15px;
   border: none;
   border-radius: 4px;
